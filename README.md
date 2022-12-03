@@ -1,2 +1,2 @@
 # Jogo-da-Velha
-Pequeno de um jogo da velha feito com HTML, CSS, e Javascript
+Um pequeno jogo feito para ser jogado por dois jogadores, fique a vontade para usar
