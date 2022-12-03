@@ -66,13 +66,13 @@ function play(element) {
 }
 casas.forEach(element => element.addEventListener("click", () => play(element)))
 
-function getProximoJogador() {
+function getNextPlayer() {
     gameBoard.onclick = () => {
         nextPlayer = currentPlayer === player1 ? player2 : player1
         currentTurn.innerHTML = nextPlayer
     }
 }
-getProximoJogador()
+getNextPlayer()
 
 function checkGameStatus() {
     const checkXWin = casasArray.map(e => e.textContent === "X")
@@ -102,7 +102,7 @@ function checkGameStatus() {
         endGame("Vitória de X")
     } else if (Win_O_Condition) {
         endGame("Vitória de O")
-    } else if (drawCondition) {
+    } else if (drawCondition && !WinXCondition && !Win_O_Condition) {
         endGame("Empate")
     }
 }
