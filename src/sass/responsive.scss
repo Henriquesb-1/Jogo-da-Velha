@@ -1,0 +1,48 @@
+@media screen and (min-width: 351px) and (max-width: 480px) {
+    body {
+        font-size: 0.8rem;
+    }
+
+    .casas {
+        width: 115px;
+        height: 115px;
+    }
+
+    .escolha {
+        button {
+            width: 42px;
+            height: 42px;
+        }
+    }
+
+    .board {
+        button {
+            font-size: 3.8rem;
+        }
+    }
+}
+
+@media screen and (max-width: 350px) {
+    body {
+        font-size: 0.7rem;
+    }
+
+    .casas {
+        width: 100px;
+        height: 100px;
+    }
+
+    .escolha {
+        button {
+            width: 38px;
+            height: 38px;
+            margin: 0 15px;
+        }
+    }
+
+    .board {
+        button {
+            font-size: 3.2rem;
+        }
+    }
+}

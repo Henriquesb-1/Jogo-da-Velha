@@ -1,0 +1,35 @@
+.button-reboot {
+    display: none;
+
+    height: 25px;
+
+    border: 1px solid #0aa;
+    border-radius: 7px;
+    margin: 15px 0;
+    padding: 0;
+}
+
+.button-reboot {
+    button {
+        background-color: #0fa4;
+        color: var(--font-color);
+        transition: var(--transition);
+
+        width: 100%;
+        height: 100%;
+
+        border: none;
+        box-shadow: var(--box-shadow);
+
+        cursor: pointer;
+    }
+}
+
+.button-reboot {
+    button:hover {
+        background-color: #0fa2;
+        color: var(--font-color-hover);
+
+        box-shadow: var(--box-shadow-hover);
+    }
+}

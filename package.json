@@ -1,0 +1,27 @@
+{
+  "name": "jogodavelha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "5.75.0",
+    "webpack-cli": "5.0.0",
+    "webpack-dev-server": "4.11.1",
+    "copy-webpack-plugin": "11.0.0",
+    "css-loader": "6.7.2",
+    "sass-loader": "13.2.0",
+    "node-sass": "8.0.0",
+    "mini-css-extract-plugin": "2.7.1",
+    "html-minimizer-webpack-plugin": "4.3.0",
+    "terser-webpack-plugin": "5.3.6",
+    "css-minimizer-webpack-plugin": "4.2.2"
+  }
+}

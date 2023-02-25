@@ -1,0 +1,28 @@
+:root {
+    --box-shadow: 1px 1px 1px 1px rgba(200, 200, 200, 0.2);
+    --box-shadow-hover: 0.7px 0.7px 0.7px 0.7px rgba(200, 200, 200, 0.2);
+    --transition: cubic-bezier(0.075, 0.82, 0.165, 1) 2s;
+
+    --font-color: #fff;
+    --font-color-hover: #ddd;
+}
+
+html,
+body {
+   margin: 0;
+   padding: 0;
+   height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(180, 40%, 10%, 0.8);
+}
+
+@import "./choiceButton.scss";
+@import "./board.scss";
+@import "./button-reboot.scss";
+@import "./responsive.scss";
