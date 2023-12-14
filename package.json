@@ -23,5 +23,8 @@
     "html-minimizer-webpack-plugin": "4.3.0",
     "terser-webpack-plugin": "5.3.6",
     "css-minimizer-webpack-plugin": "4.2.2"
+  }, "devDependencies": {
+    "typescript": "5.3.3",
+    "ts-loader": "9.5.1"
   }
 }

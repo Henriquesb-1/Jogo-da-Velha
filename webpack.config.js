@@ -9,7 +9,7 @@ const minimizerHTML = require("html-minimizer-webpack-plugin")
 const TerserPlugin = require("terser-webpack-plugin")
 module.exports = {
     mode: "production",
-    entry: "./src/index.js",
+    entry: "./src/index.ts",
     devServer: {
         static: {
             directory: path.join(__dirname + "/src"),
@@ -42,11 +42,18 @@ module.exports = {
             })
         ]
     },
+    
+    resolve: {
+        extensions: [".ts", ".js"]
+    },
 
     module: {
         rules: [{
             test: /\.s?[ac]ss$/,
             use: [extractCSSPlugin.loader, "css-loader", "sass-loader"]
+        }, {
+            test: /\.ts?$/,
+            use: "ts-loader",
         }]
     }
 }
