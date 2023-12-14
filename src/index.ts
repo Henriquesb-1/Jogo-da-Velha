@@ -1,3 +1,3 @@
-import "./js/game"
+import "./ts/game"
 
 import "./sass/index.scss"
